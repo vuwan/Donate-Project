@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.taskbar{
+    background-color: #e46339;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    /* justify-content: center; */
+    z-index: 110;
+    padding: 6px 0;
+}
+
+.image{
+    position: fixed;
+    margin-left: 27%;
+    height: 90%;
+    width: 75%;
+    margin-top: 190px;
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    padding-left: 12px;
+}
+
+h2{
+    margin: 15px;
+    color: #f7faff;
+}
+
+.menu-item{
+    display: inline;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f8cfad;
+}
+
+.right{
+    position: absolute;
+    top: 32px;
+    right: 26px;
+}
+
+a{
+    color: #f7faff;
+}
+
+.main{
+    display: flex;
+    position: absolute;
+    top: 140px;
+    font-size: larger;
+    flex-direction: column;
+    padding: 30px;
+    letter-spacing: 1;
+    word-spacing: 1;
+    color: rgb(31, 83, 114);
+}
+
+.btn{
+    background-color: rgb(115 155 230);
+    color: #f7faff;
+    font-size: larger;
+    padding: 8px;
+    margin-top: 24px;
+    margin-left: 10px;
+    width: 100px;
+    border-radius: 6px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+}
+
+.btn:hover{
+    background-color: rgb(31, 83, 114);
+    cursor: pointer;
+}
+
+#bottom{
+    position: absolute;
+    bottom: 2px;
+    font-size: smaller;
+}
+
+.gateway{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 30%;
+    top: 20%;
+    position: absolute;
+    font-size: larger;
+    padding: 30px;
+    border: 3px solid #305491;
+    border-radius: 12px;
+    color: rgb(31, 83, 114);
+}
+
+.contact{
+    width: 30%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 7%;
+    top: 20%;
+    position: absolute;
+    font-size: larger;
+    padding: 30px;
+    border: 3px solid #305491;
+    border-radius: 12px;
+    color: rgb(31, 83, 114);
+}
+
+.entry1, .entry2{
+    padding: 8px;
+    font-size: 16px;
+    margin: 8px;
+    width: 85%;
+    border: solid 0.1px rgb(31, 83, 114);
+    border-radius: 10px;
+    outline: none;
+}
+
+.entry1:hover{
+    cursor: pointer;
+}
+
+.entry2:hover{
+    cursor: pointer;
+}
+
+#message{
+    padding: 8px;
+    font-size: 16px;
+    margin: 8px;
+    width: 85%;
+    border: solid 0.1px rgb(31, 83, 114);
+    border-radius: 12px;
+    outline: none;
+}
+
+#message{
+    cursor: pointer;
+}
+
+.para{
+    padding-block: 10px;
+    line-height: 157%;
+}
